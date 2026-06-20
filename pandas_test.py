@@ -8,3 +8,6 @@ data = {
 df = pd.DataFrame(data)
 
 print(df)
+print("\nAverage Marks:", df["Marks"].mean())
+print("Highest Marks:", df["Marks"].max())
+print("Lowest Marks:", df["Marks"].min())

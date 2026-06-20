@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 data = {
     "Name": ["Nikhil", "Ravi", "Aman", "Sohan"],
-    "Marks": [80, 70, 90, 60]
+    "Marks": [90, 70, 80, 60]
 }
 
 df = pd.DataFrame(data)
